@@ -38,7 +38,7 @@
     "butter-provider-haruhichan": "git+https://github.com/hackhackhack/butter-provider-haruhichan",
     "butter-provider-vodo": "git+https://github.com/butterproviders/butter-provider-vodo",
     "popcorn-txt-api": "git+https://github.com/hackhackhack/popcorn-txt-api",
-    "adm-zip": "0.4.7",
+    "adm-zip": "0.4.9",
     "airplay-js": "git+https://github.com/guerrerocarlos/node-airplay-js.git",
     "async": "1.5.0",
     "chromecasts": "git+https://github.com/mafintosh/chromecasts.git",
@@ -74,7 +74,7 @@
     "temp": "0.x.x",
     "torrent-tracker-health": "0.x.x",
     "trakt.tv": "1.x.x",
-    "trakt.tv-ondeck":  "0.x",
+    "trakt.tv-ondeck": "0.x",
     "underscore": "1.x.x",
     "urijs": "1.x.x",
     "xmlbuilder": "4.1.0"
