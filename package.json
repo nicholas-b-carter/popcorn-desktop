@@ -17,7 +17,9 @@
     "postinstall": "node_modules/.bin/bower install --config.interactive=false && grunt setup",
     "postupdate": "node_modules/.bin/bower update --config.interactive=false && grunt setup",
     "test": "grunt --verbose",
-    "start": "gulp start"
+    "start": "gulp start",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "window": {
     "title": "Popcorn Time",
@@ -56,7 +58,7 @@
     "mv": "2.x.x",
     "nedb": "1.4.0",
     "node-captions": "0.4.6",
-    "node-tvdb": "1.6.x",
+    "node-tvdb": "2.0.20",
     "node-webkit-fdialogs": "latest",
     "dlnacasts": "^0.0.3",
     "opensubtitles-api": "^2.3.x",
@@ -69,15 +71,16 @@
     "rimraf": "2.x.x",
     "sanitizer": "0.x.x",
     "semver": "5.x.x",
-    "send": "0.13.x",
+    "send": "0.16.0",
     "tar": "2.2.1",
     "temp": "0.x.x",
     "torrent-tracker-health": "0.x.x",
     "trakt.tv": "1.x.x",
-    "trakt.tv-ondeck":  "0.x",
+    "trakt.tv-ondeck": "0.x",
     "underscore": "1.x.x",
     "urijs": "1.x.x",
-    "xmlbuilder": "4.1.0"
+    "xmlbuilder": "4.1.0",
+    "snyk": "^1.88.0"
   },
   "devDependencies": {
     "bower": "1.7.x",
@@ -103,5 +106,6 @@
     "run-sequence": "^1.1.5",
     "stylus": "0.x.x",
     "yargs": "^3.31.0"
-  }
+  },
+  "snyk": true
 }
