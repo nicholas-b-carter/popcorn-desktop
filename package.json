@@ -72,7 +72,7 @@
     "send": "0.13.x",
     "tar": "2.2.1",
     "temp": "0.x.x",
-    "torrent-tracker-health": "0.x.x",
+    "torrent-tracker-health": "1.0.1",
     "trakt.tv": "1.x.x",
     "trakt.tv-ondeck":  "0.x",
     "underscore": "1.x.x",
