@@ -59,7 +59,7 @@
     "node-tvdb": "1.6.x",
     "node-webkit-fdialogs": "latest",
     "dlnacasts": "^0.0.3",
-    "opensubtitles-api": "^2.3.x",
+    "opensubtitles-api": "^3.0.0",
     "os-name": "1.x.x",
     "peerflix": "git+https://github.com/popcorn-official/peerflix.git",
     "q": "2.0.3",
@@ -77,7 +77,7 @@
     "trakt.tv-ondeck":  "0.x",
     "underscore": "1.x.x",
     "urijs": "1.x.x",
-    "xmlbuilder": "4.1.0"
+    "xmlbuilder": "4.2.1"
   },
   "devDependencies": {
     "bower": "1.7.x",
